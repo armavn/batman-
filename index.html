@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson_one</title>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap" rel="stylesheet"> 
+  
+</head>
+<body>
+  <!-- wrap - to wrap whole content -->
+  <div class="wrap">
+    
+    <header class="head">
+      <div class="logo"><a style="text-decoration: none; color: white;" href="index.html">КиноПульс</a></div>
+
+      <form action="" class="search">
+
+        <input type="search" class="search-input" placeholder="Фильмы, сериалы, актеры">
+
+        <button class="search-button">
+          <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.80757 0.0393677C3.95121 0.0393677 0 3.99058 0 8.84694C0 13.7036 3.95121 17.6545 8.80757 17.6545C13.6642 17.6545 17.6151 13.7036 17.6151 8.84694C17.6151 3.99058 13.6642 0.0393677 8.80757 0.0393677ZM8.80757 16.0285C4.84769 16.0285 1.62601 12.8069 1.62601 8.84698C1.62601 4.8871 4.84769 1.66538 8.80757 1.66538C12.7675 1.66538 15.9891 4.88706 15.9891 8.84694C15.9891 12.8068 12.7675 16.0285 8.80757 16.0285Z" fill="#AEAEAE"/>
+            <path d="M19.7618 18.6515L15.1005 13.9903C14.7829 13.6727 14.2685 13.6727 13.9509 13.9903C13.6333 14.3076 13.6333 14.8226 13.9509 15.1399L18.6122 19.8011C18.771 19.9599 18.9788 20.0393 19.187 20.0393C19.3948 20.0393 19.6029 19.9599 19.7618 19.8011C20.0794 19.4838 20.0794 18.9689 19.7618 18.6515Z" fill="#AEAEAE"/>
+            </svg>
+        </button>
+
+      </form>
+
+      <div class="user">
+        <svg style="cursor: pointer;" width="13" height="18" viewBox="0 0 13 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12.1645 0.589722H1.00014C0.769564 0.589722 0.582398 0.776724 0.582398 1.00746V16.6529C0.582072 16.9663 0.757162 17.2535 1.03587 17.3968C1.31474 17.5399 1.65024 17.5149 1.90464 17.332L6.58232 13.9789L11.2602 17.3319C11.5147 17.5145 11.8499 17.5393 12.1286 17.3962C12.4071 17.253 12.5824 16.966 12.5824 16.6529V1.00746C12.5824 0.776724 12.3952 0.589722 12.1645 0.589722ZM11.7468 16.6527L6.82594 13.1253C6.68039 13.021 6.48457 13.021 6.33918 13.1253L1.4182 16.6529V1.4252H11.7468V16.6527Z" fill="white"/>
+        </svg>
+          
+        <div class="avatar">
+          <img src="photos/avatar.jpg" alt="avatar" width="40px" height="40px">
+        </div>
+      </div>
+    </header>
+
+
+    <main class="main">
+        <h1 class="title">Бэтмен</h1>
+        <small class="title-eng">The Batman</small>
+        <div class="info">
+          <div class="movie-info">
+            <span class="tag">Фильм</span>
+            <span class="country">США, 2021 год</span>
+            <a data-fancybox href="https://www.youtube.com/watch?v=6Vc0xXO_Sbs" class="play">Смотреть трейлер</a>
+          </div>
+          <a href="#" class="more">Подробнее</a>
+        </div>
+
+        <div class="content">
+          <div class="short-info">
+            <img src="photos/cover.jpg" alt="" class="poster">
+            <button class="watch_button">Буду мотреть</button>
+            <h3 class="actors-title">В главных ролях:</h3>
+            <ul class="actors_list">
+              <li class="actors_list_item">Роберт Паттинсон</li>
+              <li class="actors_list_item">Зои Кравиц</li>
+              <li class="actors_list_item">Колин Фаррелл</li>
+              <li class="actors_list_item">Питер Сарсгаард</li>
+              <li class="actors_list_item">Пол Дано</li>
+              <li class="actors_list_item">Энди Серкис</li>
+              <li class="actors_list_item">Джеффри Райт</li>
+              <li class="actors_list_item">Джон Туртурро</li>
+              <li class="actors_list_item">Макс Карвер</li>
+              <li class="actors_list_item">Кон О’Нилл</li>
+            </ul>
+          </div>
+          <div class="full_info">
+            <nav class="tab">
+              <a href="#about" class="tab-item">Описание</a>
+              <a href="#reviews" class="tab-item">Резенции</a>
+              <a href="#" class="tab-item">Премьеры</a>
+              <a href="#" class="tab-item">Актеры</a>
+              <a href="#" class="tab-item">Награды</a>
+              <a href="#" class="tab-item">Факты</a>
+              <a href="#" class="tab-item">Сайты</a>
+              <a href="#" class="tab-item">
+                <img src="photos/bookmark-icon.svg" alt="" class="bookmark-added">
+              </a>
+            </nav>
+
+            <div class="full_content">
+
+              <div class="tabs_content visible" id="about">
+                <p class="text">Предстоящий американский супергеройский фильм, основанный на одноимённых комиксах издательства DC Comics. Картина будет выпущена компанией Warner Bros. и будет перезагрузкой всех фильмов о Бэтмене.</p>
+
+                <p class="text">Фильм является десятым по счёту фильмом из Расширенной вселенной DC. Режиссёром и сценаристом фильма выступит Мэтт Ривз, а главную роль исполнит Роберт Паттинсон</p>
+              
+                <h4 class="text-title">Разработка</h4>
+
+                <p class="text">В октябре 2014 года студия Warner Bros. объявила, что в разработке находится сольный фильм о Бэтмене, роль которого вновь исполнит Бен Аффлек. В июле 2015 года сообщалось, что Аффлек ведёт переговоры со студией по поводу постановки фильма и совместного написания сценария с Джеффом Джонсом. </p>
+                <p class="text">После выхода фильма «Бэтмен против Супермена: На заре справедливости» руководитель агентства WME Патрик Уайтсел подтвердил, что Аффлек написал сценарий для сольного фильма о Бэтмене и в настоящий момент его рассматривают студия и DC. В мае 2016 года Джереми Айронс подтвердил, что он появится в фильме про Тёмного Рыцаря. </p>
+                <p class="text">На Comic-Con в Сан-Диего в июле 2016 года было официально подтверждено, что Аффлек станет режиссёром картины. В августе 2016 года на одной из страниц Аффлека в социальных сетях был опубликован тестовый материал, в котором был показан персонаж Детстроук. 8 сентября 2016 года Джефф Джонс подтвердил, что Джо Манганьелло сыграет наёмника Слейда Уилсона, который, возможно, станет главным злодеем фильма.</p>
+
+              </div>
+              <div class="tabs_content" id="reviews">
+                <p class="text">
+                  Тут скоро появятся рецензии!
+                </p>
+              </div>
+
+              <div class="subscribe">
+                <span class="sub-text">
+                  Подпишитесь на обновления
+                </span>
+                
+                <from class="email">
+                  <input type="text" class="email-input" placeholder="Ваш email">
+                  <button class="email-input-button">
+                    <img src="photos/check.svg" alt="Send">
+                  </button>
+                </from>
+
+                <a href="" class="banner">
+                  <img src="photos/sub.jpg" alt="" class="sub">
+                </a>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+    </main>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
